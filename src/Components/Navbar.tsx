@@ -8,11 +8,11 @@ function Navbar({ onSearch }: NavbarProps) {
     const [searchText, setSearchText] = useState("");
     const [menuOpen, setMenuOpen] = useState(false);
 
-    useEffect(() => {
-        if (searchText.trim() === "" && onSearch) {
-            onSearch("");
-        }
-    }, [searchText, onSearch]);
+  useEffect(() => {
+    if (onSearch) {
+        onSearch(searchText);
+    }
+}, [searchText]);
 
     const handleSubmit = (e: React.FormEvent<HTMLFormElement>) => {
         e.preventDefault();
