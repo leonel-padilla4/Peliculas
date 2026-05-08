@@ -25,7 +25,7 @@ function MovieCard({ movie }: { movie: Movies }) {
           alt={movie.title}
         />
 
-        {/* 💛 Botón corazón — esquina superior derecha */}
+        {/* 💛 Botón corazón */}
         <button
           onClick={onFavoriteClick}
           className="absolute top-2 right-2 p-2 rounded-full bg-black/40 hover:bg-black/60 backdrop-blur-sm transition-all"
@@ -39,7 +39,7 @@ function MovieCard({ movie }: { movie: Movies }) {
 
         </div>
 
-      {/* 📅 Fecha — debajo de la imagen */}
+      {/* Fecha — debajo de la imagen */}
       <div className="px-3 py-2 text-sm text-gray-500">
         {year}
       </div>
