@@ -7,7 +7,7 @@ import { MovieProvider } from "./context/MovieContext";
 function App() {
   return (
     <MovieProvider>
-      <main className="flex flex-col p-2xl w-full box-border">
+      <main className="flex flex-col w-full min-h-screen box-border">
         <Routes>
           <Route path="/" element={<Home/>} />
           <Route path="/favorites" element={<Favorites/>} />
