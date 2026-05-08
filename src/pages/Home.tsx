@@ -36,18 +36,17 @@ function Home() {
     }
 
     return (
-        <div <div className="min-h-screen bg-gray-900">>
-            
-            <Navbar onSearch={handleSearch} />
-            <div className="p-5">
-                <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-5">
-                    {movies.map((movie: Movies) => {
-                        return <MovieCard key={movie.id} movie={movie} />
-                    })}
-                </div>
+    <div className="min-h-screen bg-gray-900">
+        <Navbar onSearch={handleSearch} />
+        <div className="p-5">
+            <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-5">
+                {movies.map((movie: Movies) => {
+                    return <MovieCard key={movie.id} movie={movie} />
+                })}
             </div>
         </div>
-    )
+    </div>
+)
 }
 
 export default Home;
