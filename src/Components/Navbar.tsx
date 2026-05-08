@@ -22,7 +22,7 @@ function Navbar({ onSearch }: NavbarProps) {
     };
 
     return (
-        <nav className="bg-black text-blue-600 px-4 py-3 flex flex-wrap justify-between items-center shadow-lg">
+       <nav className="bg-black text-blue-600 px-8 py-4 flex justify-center md:justify-between items-center shadow-lg">
             {/* Logo */}
             <div className="text-xl sm:text-2xl font-semibold tracking-tight">
                 <a href="/" className="hover:text-blue-400 transition-colors">
