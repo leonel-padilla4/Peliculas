@@ -1,6 +1,6 @@
 import type { Data } from "../interfaces/Movie";
 
-const API_KEY = "cb78b9598a021d90cf52f280a87980fb";
+const API_KEY = "bdd619d8bde44a03cfe4bb6c9c9280b9";
 const BASE_URL = "https://api.themoviedb.org/3";
 
 
