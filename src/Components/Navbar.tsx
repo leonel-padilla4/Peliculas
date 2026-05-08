@@ -22,7 +22,7 @@ function Navbar({ onSearch }: NavbarProps) {
     };
 
     return (
-        <nav className="bg-black text-blue-600 px-4 py-3 shadow-lg">
+    <nav className="bg-black text-blue-600 px-4 py-3 shadow-lg relative">
             {/* Fila principal: logo + hamburguesa */}
             <div className="flex justify-between items-center">
                 <div className="text-xl sm:text-2xl font-semibold tracking-tight">
