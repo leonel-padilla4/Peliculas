@@ -40,7 +40,7 @@ function Navbar({ onSearch }: NavbarProps) {
                 </button>
 
                 {/* Nav items - desktop */}
-                <div className="hidden lg:flex items-center gap-6">
+                <div className="hidden lg:flex items-center gap-6 absolute left-1/2 -translate-x-1/2">
                     {onSearch && (
                         <form onSubmit={handleSubmit} className="flex items-center text-sm gap-2 border border-gray-300 px-3 py-1 rounded-full">
                             <input 
