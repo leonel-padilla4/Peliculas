@@ -19,7 +19,6 @@ function Home() {
         loadMovies();
     }, [])
 
-    // ✅ VERIFICA QUE ESTÁ ESTA FUNCIÓN
     const handleSearch = async (query: string) => {
         console.log("handleSearch llamada con:", query);
         if (!query.trim()) {
@@ -38,7 +37,7 @@ function Home() {
 
     return (
         <div>
-            {/* ✅ VERIFICA QUE ESTÁ ASÍ */}
+            
             <Navbar onSearch={handleSearch} />
             <div className="p-5">
                 <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-5">
