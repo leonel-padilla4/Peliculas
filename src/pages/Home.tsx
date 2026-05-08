@@ -36,7 +36,7 @@ function Home() {
     }
 
     return (
-        <div>
+        <div <div className="min-h-screen bg-gray-900">>
             
             <Navbar onSearch={handleSearch} />
             <div className="p-5">
