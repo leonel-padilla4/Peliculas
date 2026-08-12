@@ -45,7 +45,8 @@ La aplicación se ejecutará en modo desarrollo con Vite (por defecto en `http:/
 
 ## 📸 Capturas
 
-_(agrega aquí 1-2 screenshots de la app: pantalla de inicio y pantalla de favoritos)_
+_<img width="1366" height="768" alt="imagen" src="https://github.com/user-attachments/assets/88ddbe6e-91ba-4119-8c95-ab28811a68ab" />
+_
 
 ## 👤 Autor
 
