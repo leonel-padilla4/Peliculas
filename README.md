@@ -45,8 +45,9 @@ La aplicación se ejecutará en modo desarrollo con Vite (por defecto en `http:/
 
 ## 📸 Capturas
 
-_<img width="1366" height="768" alt="imagen" src="https://github.com/user-attachments/assets/88ddbe6e-91ba-4119-8c95-ab28811a68ab" />
-_
+<img width="1366" height="768" alt="imagen" src="https://github.com/user-attachments/assets/88ddbe6e-91ba-4119-8c95-ab28811a68ab" />
+<img width="1366" height="768" alt="imagen" src="https://github.com/user-attachments/assets/4b30f31a-781b-493e-85be-4af51895a59e" />
+
 
 ## 👤 Autor
 
